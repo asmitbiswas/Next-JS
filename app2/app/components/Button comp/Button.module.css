@@ -1,0 +1,28 @@
+.Blue{
+    background-color: #3b82f6;
+    color: white;
+    padding: 21px 2px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.Green{
+    background-color: #047857;
+    color: white;
+    padding: 21px 2px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.red{
+    background-color: #dc2626;
+    color: white;
+    padding: 21px 2px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
