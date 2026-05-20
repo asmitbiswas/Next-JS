@@ -1,15 +1,16 @@
+'use client'
 import styles from "./Button.module.css"
+
 interface BtnProps {
     label: string;
     onClick: () => void
-    color?: "Green" | "Blue" | "red"
+    color?: "green" | "blue" | "red"  // ✅ All lowercase
 }
 
-export default function Btn({label, onClick, color = "Blue"}: BtnProps){
+export default function Button({label, onClick, color = "blue"}: BtnProps){
     return(
-        <button onClick={onClick} className = {styles[color]}>
+        <button onClick={onClick} className={styles[color]}>
             {label}
         </button>
-
     )
 }
