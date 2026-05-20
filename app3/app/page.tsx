@@ -1,6 +1,7 @@
 'use client'
 import Image from "next/image";
 import Avatar from "./comps/Avatar";
+import { Badge } from "./comps/badge";
 export default function Home() {
   
   return(
@@ -23,6 +24,12 @@ export default function Home() {
       image="https://via.placeholder.com/150"
       size="lg"
       />
+        <div style={{ margin: '20px 0' }}>
+        <Badge label="Active" color="green" />
+        <Badge label="Developer" color="blue" />
+        <Badge label="Coder" color="blue" />
+        <Badge label="Inactive" color="red" />
+      </div>
    </div>
   )
   
