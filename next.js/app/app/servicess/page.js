@@ -8,17 +8,10 @@ export default function servicess(){
                     <Link href = "/servicess/web-dev">Web development</Link>
                 </p>
                 <p>
-                    <Link href="/">App development</Link>
-                </p>
-                <p>
-                    <Link href="/">Web/App design</Link>
-                </p>
-                <p>
-                    <Link href="/">SEO</Link>
+                    <Link href="/servicess/seo">SEO</Link>
                 </p>
 
                 {/* <Link href="/"></Link> */}
-
             </h1>
         </div>
     )

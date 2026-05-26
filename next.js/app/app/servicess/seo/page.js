@@ -1,8 +1,9 @@
 
+
 export default function servicess(){
     return(
         <div>
-            <h1>Web dev services</h1>
+            <h1>SEO services</h1>
         </div>
     )
 }
