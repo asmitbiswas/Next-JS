@@ -9,7 +9,7 @@ export default function Home(props) {
       <Link href = "/blogs">blogs</Link>
     </p>
     <p>
-      <Link href = "/about">about</Link>
+      <Link href = "/blogs/about">about</Link>
     </p>
     <p>
       <Link href = "/seo">SEO</Link>
