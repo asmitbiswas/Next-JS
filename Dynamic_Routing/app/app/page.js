@@ -5,13 +5,13 @@ export default function Home() {
     <div>
     <h1>Technical Agency</h1>
     <p>
-      <Link href = "/">blogs</Link>
+      <Link href = "/blogs">blogs</Link>
     </p>
     <p>
-      <Link href = "/">about</Link>
+      <Link href = "/about">about</Link>
     </p>
     <p>
-      <Link href = "/">SEO</Link>
+      <Link href = "/seo">SEO</Link>
     </p>
     
     </div>
