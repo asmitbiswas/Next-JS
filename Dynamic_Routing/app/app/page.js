@@ -1,8 +1,9 @@
 import Link from "next/link";
 
-export default async function Home(searchParams, params) {
+export default async function Home(searchParams, params, props) {
   console.log(await searchParams)
   console.log(await params)
+  console.log(props)
   return(
     <div>
     <h1>Technical Agency</h1>
