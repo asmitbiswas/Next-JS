@@ -1,6 +1,7 @@
 import Link from "next/link";
 
-export default function Home() {
+export default function Home(props) {
+  console.log(props)
   return(
     <div>
     <h1>Technical Agency</h1>
