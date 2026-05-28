@@ -1,6 +1,7 @@
 const { default: Link } = require("next/link");
 
-export default function servicess(params){
+export default function servicess({params}){
+    console.log(params)
     return(
         <div>
             <h1>
