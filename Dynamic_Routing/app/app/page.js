@@ -14,7 +14,7 @@ export default async function Home(searchParams, params, props) {
       <Link href = "/blogs/about">about</Link>
     </p>
     <p>
-      <Link href = "/seo">SEO</Link>
+      {/* <Link href = "/seo">SEO</Link> */}
     </p>
     
     </div>
