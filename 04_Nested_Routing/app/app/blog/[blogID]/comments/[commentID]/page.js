@@ -1,8 +1,8 @@
 export default async function comments({params}){
     const paramsObj = await params;
-    const {blogID} = paramsObj;
+    const {blogID, commentID} = paramsObj;
     console.log(paramsObj)
     return(
-        <div>All comments on <b>{blogID}</b> page</div>
+        <div>All comments no <i>{commentID}</i> <b>{blogID}</b> page</div>
     )
 }
