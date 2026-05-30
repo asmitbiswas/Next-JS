@@ -1,5 +1,7 @@
 export default async function Blog({params}){
-    const {blogID} = await params
+    const paramsObj = await params;
+    const {blogID} = paramsObj;
+    console.log(paramsObj)
     return(
         <div>All comments on {blogID} page</div>
     )
