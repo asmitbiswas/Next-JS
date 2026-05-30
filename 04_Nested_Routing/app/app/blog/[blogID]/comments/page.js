@@ -3,6 +3,6 @@ export default async function Blog({params}){
     const {blogID} = paramsObj;
     console.log(paramsObj)
     return(
-        <div>All comments on {blogID} page</div>
+        <div>All comments on <b>{blogID}</b> page</div>
     )
 }
