@@ -1,4 +1,5 @@
 export default function app(){
+    console.log("Welocme to my page")
     return(
         <div>
             <h1>
