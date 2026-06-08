@@ -2,8 +2,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <h1>My RootLayout</h1>
+        <header>Header</header>
         {children}
+        <footer>Footer</footer>
       </body>
     </html>
   );
