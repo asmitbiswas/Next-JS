@@ -11,5 +11,6 @@ export default function App(){
     <p>
       <Link href = "/about">About page</Link>
     </p>
+     {/* links are the bug */}
   </div>
 }
