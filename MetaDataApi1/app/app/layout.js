@@ -7,7 +7,7 @@
 // }
  
 // export default function Layout() {}
-import {template} from "@babel/core";
+
 export const metadata = {
   title:{
     template:"%s | Technical Agency",
