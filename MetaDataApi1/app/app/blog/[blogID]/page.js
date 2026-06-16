@@ -1,3 +1,6 @@
+export const metadata = {
+    title:"Blog"
+}
 export default async function Blog({params}){
     const {blogID} = await params
     return(
