@@ -17,6 +17,9 @@ export default function Home() {
       <p>
         <Link href = "/servicess">services page</Link>
       </p>
+      <p>
+        <Link href = "/Files">File</Link>
+      </p>
       </div>
   );
 }
