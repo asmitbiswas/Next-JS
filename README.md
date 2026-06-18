@@ -42,25 +42,4 @@ Contributors
 1
 @asmitbiswas
 asmitbiswas Asmit Biswas
-Languages
-HTML
-79.2%
- 
-JavaScript
-10.4%
- 
-CSS
-10.4%
-Suggested workflows
-Based on your tech stack
-Publish Node.js Package to GitHub Packages logo
-Publish Node.js Package to GitHub Packages
-Publishes a Node.js package to GitHub Packages.
-SLSA Generic generator logo
-SLSA Generic generator
-Generate SLSA3 provenance for your existing release workflows
-Node.js logo
-Node.js
-Build and test a Node.js project with npm.
-More workflows
-Footer
+
