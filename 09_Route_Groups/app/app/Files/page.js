@@ -1,7 +1,8 @@
-export default function File() {
-    return (
+import Link from "next/link"
+
+export default function Page() {
+    return(
         <div>
-            <h1>File</h1>
             <p>
                 <Link href="/Files/file1">File1</Link>
             </p>
@@ -12,7 +13,5 @@ export default function File() {
                 <Link href="/Files/file3">File3</Link>
             </p>
         </div>
-        
-        
     )
 }
