@@ -8,7 +8,7 @@ export async function GenerateMetaData({params}) {
 }
 export default async function Blog({params}){
     const {blogID} = await params;
-       if (blogID === 'test') {
+       if (blogID === "test") {
         notFound();
     }
     return(
