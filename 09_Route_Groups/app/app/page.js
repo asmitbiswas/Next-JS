@@ -20,6 +20,9 @@ export default function Home() {
       <p>
         <Link href = "/Files">File</Link>
       </p>
+      <p>
+                <Link href="/meow">Meow</Link>
+      </p>
       </div>
   );
 }

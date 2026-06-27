@@ -2,9 +2,9 @@
 export default function RootLayout({ children }) {
   return (
       <>
-       <header style={{background:"Black", color:"White"}}>Header(Marketing1)</header>
+       <header style={{background:"maroon", color:"White"}}>Header(Marketing2)</header>
         {children}
-        <footer style={{background:"Black", color:"White"}}>Footer(Marketing1)</footer>
+        <footer style={{background:"Grey", color:"White"}}>Footer(Marketing2)</footer>
         </>
   );
 }
